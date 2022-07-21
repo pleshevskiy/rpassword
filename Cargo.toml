@@ -12,7 +12,7 @@ keywords = ["read", "password", "security", "pass", "getpass"]
 edition = "2018"
 
 [features]
-serde = ["dep:serde", "dep:serde_json"]
+serde_v1 = ["serde", "serde_json"]
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2"
